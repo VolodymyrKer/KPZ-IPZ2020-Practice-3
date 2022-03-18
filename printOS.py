@@ -1,5 +1,5 @@
 import platform
 
 
-def printOS():
-    print(platform.platform())
+def get_os():
+    print(platform.system())
