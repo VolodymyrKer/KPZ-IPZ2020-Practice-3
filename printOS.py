@@ -2,4 +2,9 @@ import platform
 
 
 def get_os():
-    print(platform.system())
+    os = platform.system()
+    if os == "Darwin":
+        print("Mac")
+    elif os == "Java":
+        pass
+    else: print(os)
