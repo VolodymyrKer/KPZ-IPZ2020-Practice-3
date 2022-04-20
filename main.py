@@ -8,4 +8,4 @@ print(validate_ip("1.1.1.01"))
 print(validate_ip("1.1.1.255:0000"))
 print(validate_ip("1.1.1.025"))
 
-get_os()
+print(get_os())
